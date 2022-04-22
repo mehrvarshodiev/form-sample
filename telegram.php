@@ -7,14 +7,10 @@ $name = $_POST['name'];
 $token = "5175198594:AAFDz41-lhcvAezsZctSJPCwW_meIduCLOw";
 $chat_id = "-741391332";
 
-$message = $_POST['msg'];
-
 $arr = array(
     'Имя пользователья: ' => $name,
     'Телефон: ' => $phone,
     'Email: ' => $email,
-
-    'Сообщения пользователья: ' => $message,
 );
 
 foreach($arr as $key => $value) {
@@ -33,4 +29,4 @@ else{
 
 ?>
 
-/* https://api.telegram.org/bot5175198594:AAFDz41-lhcvAezsZctSJPCwW_meIduCLOw/getupdates */
+<!-- /* https://api.telegram.org/bot5175198594:AAFDz41-lhcvAezsZctSJPCwW_meIduCLOw/getupdates */ -->
