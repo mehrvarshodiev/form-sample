@@ -23,6 +23,7 @@ body {
     padding: 10px 20px;
     border: 2px solid rgb(50, 159, 223);
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .form h1 {
