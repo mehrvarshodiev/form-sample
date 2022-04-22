@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.form {
+    max-height: 100vh;
+    width: 600px;
+    left: -50%;
+    top: -50%;
+    transform: translate(50%, 40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: auto;
+    /* background: rgb(206, 109, 109); */
+    /* margin: 50px; */
+    padding: 10px 20px;
+    border: 2px solid rgb(50, 159, 223);
+    border-radius: 20px;
+}
+
+.form h1 {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.form form {
+    display: block;
+}
+
+.form label {
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    font-family: serif;
+    font-size: 1.2rem;
+    color: rgb(221, 221, 221);
+}
+
+.form input,
+.form textarea {
+    width: 350px;
+    margin-bottom: 15px;
+    padding: 8px 5px;
+    display: block;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    background: inherit;
+    border-bottom: 1px solid rgb(50, 159, 223);
+    transition-delay: all 2s;
+    color: rgb(50, 159, 223);
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: rgb(50, 159, 223);
+}
+
+.form #send {
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background: rgb(50, 159, 223);
+    width: 150px;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.form #send:hover {
+    background: rgb(16, 63, 90);
+    color: #fff;
+}
+
+@media (max-width: 1150px) {
+    .form {
+        display: block;
+        max-height: 100vh;
+        max-width: 450px;
+        left: -50%;
+        top: -50%;
+        transform: translate(50%, 40%);
+    }
+}
+
+@media (max-width: 760px) {
+    .form {
+        display: block;
+        max-height: 100vh;
+        max-width: 300px;
+        left: -50%;
+        top: -40%;
+        transform: translate(50%, 30%);
+    }
+    .form h1 {
+        font-size: 1rem;
+    }
+    .form input,
+    .form textarea {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 470px) {
+    .form {
+        /* display: block; */
+        /* max-height: 100vh; */
+        max-width: 250px;
+        left: -30%;
+        top: -30%;
+        transform: translate(30%, 30%);
+        /* margin-right: 300px; */
+    }
+    .form h1 {
+        font-size: .9rem;
+    }
+    .form input,
+    .form textarea {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 360px) {
+    .form {
+        /* display: block; */
+        /* max-height: 100vh; */
+        max-width: 200px;
+        left: -30%;
+        top: -30%;
+        transform: translate(30%, 30%);
+        /* margin-right: 300px; */
+    }
+    .form h1 {
+        font-size: .9rem;
+    }
+    .form label {
+        font-size: 14px;
+    }
+    .form input,
+    .form textarea {
+        max-width: 160px;
+    }
+    .form input::placeholder,
+    .form textarea::placeholder {
+        font-size: 13px;
+    }
+}

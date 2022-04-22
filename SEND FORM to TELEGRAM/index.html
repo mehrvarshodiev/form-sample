@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка форму на Телеграм</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Отправка форму на Telegram</h1>
+
+        <form action="index.js" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя" required="true">
+            <label for="phone-number">Ваш номер телефон:</label>
+            <input type="text" id="phone-number" name="phone-number" placeholder="+1 234-567-890" required="true">
+            <label for="email">Ваш E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Введите email" required="true">
+
+            <label for="msg">Ваше сообщение:</label>
+            <textarea name="msg" id="msg" cols="30" rows="5" required="true" placeholder="Сообщение..."></textarea>
+
+            <input type="submit" name="send" id="send" value="Отправить">
+        </form>
+    </div>
+</body>
+
+</html>
