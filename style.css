@@ -91,10 +91,11 @@ body {
     .form {
         display: block;
         max-height: 100vh;
-        max-width: 450px;
-        left: -50%;
-        top: -50%;
-        transform: translate(50%, 40%);
+        max-width: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -40%);
     }
 }
 
@@ -102,10 +103,10 @@ body {
     .form {
         display: block;
         max-height: 100vh;
-        max-width: 300px;
-        left: -50%;
-        top: -40%;
-        transform: translate(50%, 30%);
+        max-width: 400px;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -30%);
     }
     .form h1 {
         font-size: 1rem;
@@ -121,9 +122,9 @@ body {
         /* display: block; */
         /* max-height: 100vh; */
         max-width: 250px;
-        left: -30%;
-        top: -30%;
-        transform: translate(30%, 30%);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         /* margin-right: 300px; */
     }
     .form h1 {
@@ -140,9 +141,9 @@ body {
         /* display: block; */
         /* max-height: 100vh; */
         max-width: 200px;
-        left: -30%;
-        top: -30%;
-        transform: translate(30%, 30%);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         /* margin-right: 300px; */
     }
     .form h1 {
