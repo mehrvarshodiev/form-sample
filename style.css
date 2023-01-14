@@ -12,16 +12,10 @@ body {
 .form {
     max-height: 100vh;
     width: 600px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: auto;
-    /* background: rgb(206, 109, 109); */
-    /* margin: 50px; */
     padding: 10px 20px;
     border: 2px solid rgb(50, 159, 223);
     border-radius: 20px;
@@ -92,10 +86,7 @@ body {
         display: block;
         max-height: 100vh;
         max-width: 500px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -40%);
+
     }
 }
 
@@ -104,9 +95,7 @@ body {
         display: block;
         max-height: 100vh;
         max-width: 400px;
-        left: 50%;
-        top: 40%;
-        transform: translate(-50%, -30%);
+       
     }
     .form h1 {
         font-size: 1rem;
@@ -119,13 +108,7 @@ body {
 
 @media (max-width: 470px) {
     .form {
-        /* display: block; */
-        /* max-height: 100vh; */
         max-width: 250px;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        /* margin-right: 300px; */
     }
     .form h1 {
         font-size: .9rem;
@@ -138,8 +121,7 @@ body {
 
 @media (max-width: 360px) {
     .form {
-        /* display: block; */
-        /* max-height: 100vh; */
+
         max-width: 200px;
         left: 50%;
         top: 50%;
